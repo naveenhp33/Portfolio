@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        skill: {
+          html: "hsl(var(--skill-html))",
+          css: "hsl(var(--skill-css))",
+          js: "hsl(var(--skill-js))",
+          react: "hsl(var(--skill-react))",
+          node: "hsl(var(--skill-node))",
+          git: "hsl(var(--skill-git))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
