@@ -52,7 +52,7 @@ const Index = () => {
               <div className="space-y-2">
                 <p className="text-lg text-muted-foreground font-medium">Hello, I'm</p>
                 <h1 className="text-5xl md:text-6xl font-bold text-foreground">
-                  Your Name
+                  NAVEEN KUMAR
                 </h1>
                 <p className="text-2xl md:text-3xl text-primary font-medium">
                   I build modern web experiences
@@ -116,7 +116,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Location</h4>
-                  <p className="text-muted-foreground">India</p>
+                  <p className="text-muted-foreground">TRICHY</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Experience</h4>
@@ -124,7 +124,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Projects</h4>
-                  <p className="text-muted-foreground">15+ Completed</p>
+                  <p className="text-muted-foreground">10+ Completed</p>
                 </div>
               </div>
             </div>
@@ -307,8 +307,8 @@ const Index = () => {
 
             <div className="mt-8 pt-8 border-t border-border space-y-4 text-center">
               <p className="text-muted-foreground">Or reach me directly at:</p>
-              <p className="text-foreground font-medium">your.email@example.com</p>
-              <p className="text-muted-foreground">📍 India</p>
+              <p className="text-foreground font-medium">naveenkumarsubramani2603@gmail.com</p>
+              <p className="text-muted-foreground">📍 Trichy,India</p>
             </div>
           </Card>
         </div>
@@ -323,16 +323,16 @@ const Index = () => {
             </p>
             
             <div className="flex items-center gap-6">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+              <a href="https://www.linkedin.com/in/naveen-kumar-s-909b3a364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="https://naukri.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
                 <Calendar className="w-6 h-6" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+              <a href="https://github.com/naveenhp33" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+              <a href="https://www.instagram.com/nickyk_33?igsh=NTVyMHU2ZGQwY2My" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-all duration-300 hover:scale-110">
                 <Instagram className="w-6 h-6" />
               </a>
             </div>
