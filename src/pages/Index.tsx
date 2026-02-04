@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Instagram, Code2, ExternalLink, Calendar } from "lucide-react";
+import { Mail, Linkedin, Github, Instagram, Code2, ExternalLink, Calendar, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import profileImage from "@/assets/profile.png";
@@ -63,7 +63,7 @@ const Index = () => {
                 A passionate web developer specializing in creating beautiful, functional, and user-friendly digital experiences.
               </p>
 
-              <div className="flex gap-4">
+              <div className="flex flex-wrap gap-4">
                 <a href="#contact">
                   <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all duration-300 hover:scale-105">
                     Hire Me
@@ -72,6 +72,12 @@ const Index = () => {
                 <a href="#projects">
                   <Button size="lg" variant="outline" className="border-2 hover:bg-secondary transition-all duration-300 hover:scale-105">
                     View Work
+                  </Button>
+                </a>
+                <a href="/resume" target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105">
+                    <FileText className="w-5 h-5 mr-2" />
+                    Resume
                   </Button>
                 </a>
               </div>
